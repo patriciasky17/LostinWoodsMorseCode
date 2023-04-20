@@ -4,10 +4,6 @@ import AVFoundation
 struct ContentView: View {
     @StateObject var gameModel: GameModel
     
-//    init(){
-//        UINavigationBar.setAnimationsEnabled(false)
-//    }
-    
     var body: some View {
         NavigationView {
             ZStack {
