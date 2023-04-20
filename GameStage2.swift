@@ -429,7 +429,7 @@ struct GameStage2: View {
         (3, [
             ["N", "S", "O", "U"],
             ["M", "O", "F", "U"],
-            ["D", "E", "U", "T"],
+            ["D", "E", "R", "T"],
             ["P", "T", "O", "H"],
             ["E", "O", "H", "I"],
             ["H", "W", "E", "K"],
@@ -445,7 +445,7 @@ struct GameStage2: View {
             ["A", "E", "U", "H"],
             ["H", "W", "E", "K"],
             ["S", "O", "E", "N"],
-            ["S", "S", "M", "R"],
+            ["P", "S", "M", "R"],
             ["T", "E", "I", "N"]
         ])
     ]
@@ -483,7 +483,7 @@ struct GameStage2: View {
     }
     
     func soundFirstTime() {
-        let fileName = stage2Sounds[currentQuestionIndex2].1[0]
+        let fileName = stage2Sounds[randomValue].1[0]
         if !hasPlayedSoundFirstTime {
             playSoundMorseCode(fileName: fileName)
             hasPlayedSoundFirstTime = true
