@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Bad_Ending.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
